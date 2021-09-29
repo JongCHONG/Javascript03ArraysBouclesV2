@@ -68,3 +68,20 @@ for (i = 1; i <= j; i++) {
     result = result * i
 }
 console.log(result)
+
+//5 - Factorielle v2
+
+var i
+var j = 7
+var k
+var result = 1
+
+for (k = 0; k <= j; k++) {
+    if (k == 0 || k == 1) {
+        result = 1
+    } else {
+        result = result * k
+    }
+
+    console.log(result)
+}
