@@ -72,7 +72,7 @@ console.log(result)
 //5 - Factorielle v2
 
 var i
-var j = 7
+var j = 8
 var k
 var result = 1
 
@@ -85,3 +85,13 @@ for (k = 0; k <= j; k++) {
 
     console.log(result)
 }
+
+//6 - Somme des carrés
+
+var i 
+var result = 0
+
+for (i = 5; i <= 10; i++) {
+    result = result + i * i
+}
+console.log (result)
