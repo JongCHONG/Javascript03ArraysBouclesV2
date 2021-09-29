@@ -95,3 +95,17 @@ for (i = 5; i <= 10; i++) {
     result = result + i * i
 }
 console.log (result)
+
+//7 - Comptons
+
+var max = 1000
+var min = 100
+var count = 0
+
+while (min != max) {
+    if (max % 7 == 0) {
+        count++
+    }
+    max--
+}
+console.log(count)
