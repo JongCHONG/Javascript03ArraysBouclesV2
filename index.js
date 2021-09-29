@@ -39,10 +39,21 @@ for (i = 0; i < 5; i++){
 }
 console.log(roots)
 
-//4 - Table de multiplication v1
+//3 - Table de multiplication v1
 
 var i 
 
 for (i = 0; i <= 10; i++) {
     console.log(`3 x ${i} = ${i*3}`)
+}
+
+//4 - Table de multiplication v2
+
+var i
+var j
+
+for (i = 0; i <= 10; i++) {
+    for (j = 0; j <= 10; j++) {
+        console.log(`${i} x ${j} = ${i * j}`)
+    }
 }
