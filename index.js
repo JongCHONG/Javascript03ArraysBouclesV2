@@ -57,3 +57,14 @@ for (i = 0; i <= 10; i++) {
         console.log(`${i} x ${j} = ${i * j}`)
     }
 }
+
+//5 - Factorielle v1
+
+var i
+var j = 7
+var result = 1
+
+for (i = 1; i <= j; i++) {
+    result = result * i
+}
+console.log(result)
