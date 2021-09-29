@@ -38,3 +38,11 @@ for (i = 0; i < 5; i++){
     roots[i] = Math.floor(Math.sqrt(squares[i]))
 }
 console.log(roots)
+
+//4 - Table de multiplication v1
+
+var i 
+
+for (i = 0; i <= 10; i++) {
+    console.log(`3 x ${i} = ${i*3}`)
+}
