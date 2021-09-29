@@ -39,7 +39,7 @@ for (i = 0; i < 5; i++){
 }
 console.log(roots)
 
-//3 - Table de multiplication v1
+//4 - Table de multiplication v1
 
 var i 
 
@@ -47,7 +47,7 @@ for (i = 0; i <= 10; i++) {
     console.log(`3 x ${i} = ${i*3}`)
 }
 
-//4 - Table de multiplication v2
+//5 - Table de multiplication v2
 
 var i
 var j
@@ -58,7 +58,7 @@ for (i = 0; i <= 10; i++) {
     }
 }
 
-//5 - Factorielle v1
+//6 - Factorielle v1
 
 var i
 var j = 7
@@ -69,7 +69,7 @@ for (i = 1; i <= j; i++) {
 }
 console.log(result)
 
-//5 - Factorielle v2
+//7 - Factorielle v2
 
 var i
 var j = 8
@@ -86,7 +86,7 @@ for (k = 0; k <= j; k++) {
     console.log(result)
 }
 
-//6 - Somme des carrés
+//8 - Somme des carrés
 
 var i 
 var result = 0
@@ -96,7 +96,7 @@ for (i = 5; i <= 10; i++) {
 }
 console.log (result)
 
-//7 - Comptons
+//9 - Comptons
 
 var max = 1000
 var min = 100
@@ -110,7 +110,7 @@ while (min != max) {
 }
 console.log(count)
 
-//8 - Chanceux
+//10 - Chanceux
 
 var min = 1
 var max = 6
@@ -126,10 +126,20 @@ for (i = 1; i <= 20; i++) {
     console.log(i + " lancé " + dice + " resultat " + result)
 }
 
-//9 - Des boites
+//11 - Des boites
 
 Box1 + box2 : 1er boucle: 10 
 Box1 + box2 2e boucle : 34
 Box1 : 17
 Box2 : 30
 i : 14
+
+//12 - D'autres boites
+
+1er tour Box 1 : 12
+2e tour : 24
+3e tour : 33
+4e tour : 39
+5e tour : 42
+box1 : 42
+i : 0
