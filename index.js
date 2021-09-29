@@ -109,3 +109,19 @@ while (min != max) {
     max--
 }
 console.log(count)
+
+//8 - Chanceux
+
+var min = 1
+var max = 6
+var i 
+var result = 0
+var dice = 0
+
+for (i = 1; i <= 20; i++) {
+    dice = Math.floor(Math.random() * (max - min + 1) + min)
+    if (dice >= 5) {
+        result = result + dice
+    }
+    console.log(i + " lancé " + dice + " resultat " + result)
+}
