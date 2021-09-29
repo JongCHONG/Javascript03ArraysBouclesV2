@@ -128,18 +128,39 @@ for (i = 1; i <= 20; i++) {
 
 //11 - Des boites
 
-Box1 + box2 : 1er boucle: 10 
-Box1 + box2 2e boucle : 34
-Box1 : 17
-Box2 : 30
-i : 14
+// Box1 + box2 : 1er boucle: 10 
+// Box1 + box2 2e boucle : 34
+// Box1 : 17
+// Box2 : 30
+// i : 14
 
 //12 - D'autres boites
 
-1er tour Box 1 : 12
-2e tour : 24
-3e tour : 33
-4e tour : 39
-5e tour : 42
-box1 : 42
-i : 0
+// 1er tour Box 1 : 12
+// 2e tour : 24
+// 3e tour : 33
+// 4e tour : 39
+// 5e tour : 42
+// box1 : 42
+// i : 0
+
+//13 - Encore des boites
+
+//Mega Bonus - Armstrong Number
+
+var i
+var j
+var k
+var total = 0
+var Armstrong = 0
+for (i = 0; i <= 9; i++) {
+    for (j = 0; j <= 9; j++) {
+        for (k = 0; k <= 9; k++) {
+            total = i * 10**2 + j * 10 + k
+            Armstrong = i**3 + j**3 + k**3
+            if (total == Armstrong) {
+                console.log(total)
+            }
+        }
+    }
+}
