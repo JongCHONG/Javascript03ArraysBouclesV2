@@ -125,3 +125,11 @@ for (i = 1; i <= 20; i++) {
     }
     console.log(i + " lancé " + dice + " resultat " + result)
 }
+
+//9 - Des boites
+
+Box1 + box2 : 1er boucle: 10 
+Box1 + box2 2e boucle : 34
+Box1 : 17
+Box2 : 30
+i : 14
