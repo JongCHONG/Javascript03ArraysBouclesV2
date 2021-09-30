@@ -8,7 +8,7 @@ for (i = 11; i < 47; i++) {
         somme = somme + i
     }
 }
-console.log(somme)
+console.log(somme + "\n")
 
 //2 - Nombre impairs
 
@@ -20,7 +20,7 @@ for (i = 109; i < 588; i++) {
         somme = somme + i
     }
 }
-console.log(somme)
+console.log(somme + "\n")
 
 //3 - Puissance et racine carrée
 
@@ -29,15 +29,15 @@ var squares = []
 var roots = []
 var i
 
-for (i = 0; i < 5; i++){
+for (i = 0; i < numbers.length; i++){
     squares[i] = 2 ** numbers[i]
 }
 console.log(squares)
 
-for (i = 0; i < 5; i++){
+for (i = 0; i < squares.length; i++){
     roots[i] = Math.floor(Math.sqrt(squares[i]))
 }
-console.log(roots)
+console.log(roots  + "\n")
 
 //4 - Table de multiplication v1
 
@@ -46,6 +46,7 @@ var i
 for (i = 0; i <= 10; i++) {
     console.log(`3 x ${i} = ${i*3}`)
 }
+console.log("\n")
 
 //5 - Table de multiplication v2
 
@@ -57,6 +58,7 @@ for (i = 0; i <= 10; i++) {
         console.log(`${i} x ${j} = ${i * j}`)
     }
 }
+console.log("\n")
 
 //6 - Factorielle v1
 
@@ -67,7 +69,7 @@ var result = 1
 for (i = 1; i <= j; i++) {
     result = result * i
 }
-console.log(result)
+console.log(result + "\n")
 
 //7 - Factorielle v2
 
@@ -84,6 +86,7 @@ for (k = 0; k <= j; k++) {
 
     console.log(k + "! = " + result)
 }
+console.log("\n")
 
 //8 - Somme des carrés
 
@@ -93,7 +96,7 @@ var result = 0
 for (i = 5; i <= 10; i++) {
     result = result + i * i
 }
-console.log (result)
+console.log (result + "\n")
 
 //9 - Comptons
 
@@ -107,7 +110,7 @@ while (min != max) {
     }
     max--
 }
-console.log(count)
+console.log(count + "\n")
 
 //10 - Chanceux
 
@@ -124,6 +127,7 @@ for (i = 1; i <= 20; i++) {
     }
     console.log(i + " lancé " + dice + " resultat " + result)
 }
+console.log("\n")
 
 //11 - Des boites
 
@@ -145,7 +149,18 @@ for (i = 1; i <= 20; i++) {
 
 //13 - Encore des boites
 
-// i = 13
+// i = 
+0
+box2 = 4
+3
+box1 = -1
+-3
+box2 = 5
+2
+box1 = -2
+-2
+box2 = 5
+-4
 
 //Mega Bonus - Armstrong Number
 
@@ -171,6 +186,7 @@ for (i = 0; i <= 9; i++) {
         }
     }
 }
+console.log("\n")
 
 //Mega Bonus 2 - Armstrong Number
 
