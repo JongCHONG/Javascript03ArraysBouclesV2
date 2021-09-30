@@ -71,7 +71,6 @@ console.log(result)
 
 //7 - Factorielle v2
 
-var i
 var j = 8
 var k
 var result = 1
@@ -83,7 +82,7 @@ for (k = 0; k <= j; k++) {
         result = result * k
     }
 
-    console.log(result)
+    console.log(k + "! = " + result)
 }
 
 //8 - Somme des carrés
@@ -145,6 +144,8 @@ for (i = 1; i <= 20; i++) {
 // i : 0
 
 //13 - Encore des boites
+
+// i = 13
 
 //Mega Bonus - Armstrong Number
 
