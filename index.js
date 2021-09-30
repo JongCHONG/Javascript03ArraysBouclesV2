@@ -158,9 +158,45 @@ for (i = 0; i <= 9; i++) {
     for (j = 0; j <= 9; j++) {
         for (k = 0; k <= 9; k++) {
             total = i * 10**2 + j * 10 + k
-            Armstrong = i**3 + j**3 + k**3
+            if (i != 0) {
+                Armstrong = i**3 + j**3 + k**3
+            } else if (j != 0 ){
+                Armstrong = j**2 + k**2
+            } else {
+                Armstrong = k**1
+            }
             if (total == Armstrong) {
                 console.log(total)
+            }
+        }
+    }
+}
+
+//Mega Bonus 2 - Armstrong Number
+
+var i
+var j
+var k
+var l
+var total = 0
+var Armstrong = 0
+for (l = 0; l <= 9; l++) {
+    for (i = 0; i <= 9; i++) {
+        for (j = 0; j <= 9; j++) {
+            for (k = 0; k <= 9; k++) {
+                total = l* 10**3 + i * 10**2 + j * 10 + k
+                if (l != 0) {
+                    Armstrong = l**4 + i**4 + j**4 + k**4
+                } else if (i != 0) {
+                    Armstrong = i**3 + j**3 + k**3
+                } else if (j != 0 ){
+                    Armstrong = j**2 + k**2
+                } else {
+                    Armstrong = k**1
+                }
+                if (total ==  Armstrong) {
+                    console.log(total)
+                }
             }
         }
     }
